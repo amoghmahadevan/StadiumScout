@@ -9,16 +9,33 @@
 /* Begin PBXBuildFile section */
 		0ADCD65B2A83277400B5B0BF /* StadiumScoutApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0ADCD65A2A83277400B5B0BF /* StadiumScoutApp.swift */; };
 		0ADCD65D2A83277400B5B0BF /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0ADCD65C2A83277400B5B0BF /* ContentView.swift */; };
-		0ADCD65F2A83277600B5B0BF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0ADCD65E2A83277600B5B0BF /* Assets.xcassets */; };
 		0ADCD6622A83277600B5B0BF /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0ADCD6612A83277600B5B0BF /* Preview Assets.xcassets */; };
+		0ADCD6692A83285500B5B0BF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0ADCD6682A83285500B5B0BF /* Assets.xcassets */; };
+		0ADCD66F2A8329E900B5B0BF /* Location.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0ADCD66E2A8329E900B5B0BF /* Location.swift */; };
+		0ADCD6722A832B0C00B5B0BF /* LocationsDataService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0ADCD6712A832B0C00B5B0BF /* LocationsDataService.swift */; };
+		0ADCD6742A832CDA00B5B0BF /* LocationsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0ADCD6732A832CDA00B5B0BF /* LocationsView.swift */; };
+		0ADCD6762A83307900B5B0BF /* LocationsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0ADCD6752A83307900B5B0BF /* LocationsViewModel.swift */; };
+		0ADCD6782A833E4500B5B0BF /* LocationsListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0ADCD6772A833E4500B5B0BF /* LocationsListView.swift */; };
+		0ADCD67A2A83464D00B5B0BF /* LocationPreviewView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0ADCD6792A83464D00B5B0BF /* LocationPreviewView.swift */; };
+		0ADCD67C2A8429A500B5B0BF /* LocationMapAnnotationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0ADCD67B2A8429A500B5B0BF /* LocationMapAnnotationView.swift */; };
+		0ADCD67E2A842D2C00B5B0BF /* LocationDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0ADCD67D2A842D2C00B5B0BF /* LocationDetailView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		0ADCD6572A83277400B5B0BF /* StadiumScout.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = StadiumScout.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0ADCD65A2A83277400B5B0BF /* StadiumScoutApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StadiumScoutApp.swift; sourceTree = "<group>"; };
 		0ADCD65C2A83277400B5B0BF /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
-		0ADCD65E2A83277600B5B0BF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0ADCD6612A83277600B5B0BF /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		0ADCD6682A83285500B5B0BF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		0ADCD66E2A8329E900B5B0BF /* Location.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Location.swift; sourceTree = "<group>"; };
+		0ADCD6712A832B0C00B5B0BF /* LocationsDataService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LocationsDataService.swift; sourceTree = "<group>"; };
+		0ADCD6732A832CDA00B5B0BF /* LocationsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationsView.swift; sourceTree = "<group>"; };
+		0ADCD6752A83307900B5B0BF /* LocationsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationsViewModel.swift; sourceTree = "<group>"; };
+		0ADCD6772A833E4500B5B0BF /* LocationsListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationsListView.swift; sourceTree = "<group>"; };
+		0ADCD6792A83464D00B5B0BF /* LocationPreviewView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationPreviewView.swift; sourceTree = "<group>"; };
+		0ADCD67B2A8429A500B5B0BF /* LocationMapAnnotationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationMapAnnotationView.swift; sourceTree = "<group>"; };
+		0ADCD67D2A842D2C00B5B0BF /* LocationDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationDetailView.swift; sourceTree = "<group>"; };
+		0AF0E3A62A8480D0001E90DB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,9 +68,14 @@
 		0ADCD6592A83277400B5B0BF /* StadiumScout */ = {
 			isa = PBXGroup;
 			children = (
+				0AF0E3A62A8480D0001E90DB /* Info.plist */,
 				0ADCD65A2A83277400B5B0BF /* StadiumScoutApp.swift */,
 				0ADCD65C2A83277400B5B0BF /* ContentView.swift */,
-				0ADCD65E2A83277600B5B0BF /* Assets.xcassets */,
+				0ADCD6702A832AD600B5B0BF /* DataServices */,
+				0ADCD66B2A83299200B5B0BF /* Models */,
+				0ADCD66D2A8329A800B5B0BF /* ViewModels */,
+				0ADCD66C2A8329A200B5B0BF /* Views */,
+				0ADCD6682A83285500B5B0BF /* Assets.xcassets */,
 				0ADCD6602A83277600B5B0BF /* Preview Content */,
 			);
 			path = StadiumScout;
@@ -65,6 +87,42 @@
 				0ADCD6612A83277600B5B0BF /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		0ADCD66B2A83299200B5B0BF /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				0ADCD66E2A8329E900B5B0BF /* Location.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		0ADCD66C2A8329A200B5B0BF /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				0ADCD6732A832CDA00B5B0BF /* LocationsView.swift */,
+				0ADCD6772A833E4500B5B0BF /* LocationsListView.swift */,
+				0ADCD6792A83464D00B5B0BF /* LocationPreviewView.swift */,
+				0ADCD67B2A8429A500B5B0BF /* LocationMapAnnotationView.swift */,
+				0ADCD67D2A842D2C00B5B0BF /* LocationDetailView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		0ADCD66D2A8329A800B5B0BF /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				0ADCD6752A83307900B5B0BF /* LocationsViewModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		0ADCD6702A832AD600B5B0BF /* DataServices */ = {
+			isa = PBXGroup;
+			children = (
+				0ADCD6712A832B0C00B5B0BF /* LocationsDataService.swift */,
+			);
+			path = DataServices;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -125,8 +183,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0ADCD6692A83285500B5B0BF /* Assets.xcassets in Resources */,
 				0ADCD6622A83277600B5B0BF /* Preview Assets.xcassets in Resources */,
-				0ADCD65F2A83277600B5B0BF /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -137,7 +195,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0ADCD6722A832B0C00B5B0BF /* LocationsDataService.swift in Sources */,
+				0ADCD67C2A8429A500B5B0BF /* LocationMapAnnotationView.swift in Sources */,
+				0ADCD6782A833E4500B5B0BF /* LocationsListView.swift in Sources */,
+				0ADCD67A2A83464D00B5B0BF /* LocationPreviewView.swift in Sources */,
+				0ADCD6762A83307900B5B0BF /* LocationsViewModel.swift in Sources */,
 				0ADCD65D2A83277400B5B0BF /* ContentView.swift in Sources */,
+				0ADCD6742A832CDA00B5B0BF /* LocationsView.swift in Sources */,
+				0ADCD66F2A8329E900B5B0BF /* Location.swift in Sources */,
+				0ADCD67E2A842D2C00B5B0BF /* LocationDetailView.swift in Sources */,
 				0ADCD65B2A83277400B5B0BF /* StadiumScoutApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -270,11 +336,11 @@
 				DEVELOPMENT_TEAM = 7MPAX5WP23;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = StadiumScout/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
-				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -299,11 +365,11 @@
 				DEVELOPMENT_TEAM = 7MPAX5WP23;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = StadiumScout/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
-				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",

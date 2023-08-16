@@ -1,10 +1,3 @@
-//
-//  ContentView.swift
-//  StadiumScout
-//
-//  Created by Amogh Mahadevan  on 8/8/23.
-//
-
 import SwiftUI
 
 struct ContentView: View {
