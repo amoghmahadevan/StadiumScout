@@ -14,7 +14,7 @@ StadiumScout is a Swift-based IOS App which allows you to instantly track the an
 StadiumScout is an IOS app made with Swift UI 5.8.1 using XCode 14.2. StadiumScout follows an MVVM (Model-View-ViewModel) architecture with the following app characteristics in each object:
 
 Model:
-- Contains Location object which has contains all essential information about a team and its home stadium (team name, city name, coordinates, statistical analysis description, team's website link, images of stadium interior and exterior)
+- Contains Location object which has all essential information about a team and its home stadium (team name, city name, coordinates, statistical analysis description, team's website link, images of stadium interior and exterior)
 
 - Location object is Identifiable and Equatable by having custom IDs for each location and custom logic for how we can set one location equal to another location
 
